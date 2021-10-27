@@ -35,7 +35,7 @@ int main() {
 			return prime;
 		};
 		if (!Prime(sum)) {
-			// if the sum already composite, then there is nothing to do but to output it
+			// if the sum is already composite, then there is nothing to do but to output it
 			cout << n << '\n';
 			for (int index : indices) {
 				cout << index << " ";
